@@ -1,0 +1,310 @@
+{
+  "app": {
+    "name": "CryptoInsight"
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "viewAll": "Xem tất cả",
+    "search": "Tìm kiếm",
+    "back": "Quay lại",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "apply": "Áp dụng",
+    "reset": "Đặt lại",
+    "delete": "Xóa",
+    "edit": "Chỉnh sửa",
+    "add": "Thêm",
+    "name": "Tên"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "features": "Tính năng",
+    "news": "Tin tức",
+    "analysis": "Phân tích",
+    "contact": "Liên hệ",
+    "dashboard": "Tổng quan",
+    "market": "Phân tích thị trường",
+    "alerts": "Cảnh báo",
+    "portfolio": "Danh mục đầu tư",
+    "settings": "Cài đặt",
+    "quickLinks": "Liên kết nhanh",
+    "resources": "Tài nguyên",
+    "guides": "Hướng dẫn",
+    "blog": "Blog",
+    "documentation": "Tài liệu"
+  },
+  "footer": {
+    "allRightsReserved": "Tất cả các quyền được bảo lưu.",
+    "termsOfService": "Điều khoản sử dụng",
+    "privacyPolicy": "Chính sách bảo mật"
+  },
+  "auth": {
+    "login": "Đăng nhập",
+    "register": "Đăng ký",
+    "logout": "Đăng xuất",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "rememberMe": "Ghi nhớ đăng nhập",
+    "forgotPassword": "Quên mật khẩu?",
+    "fullName": "Họ tên",
+    "orLoginWith": "Hoặc",
+    "orSignUpWith": "Hoặc",
+    "alreadyHaveAccount": "Đã có tài khoản?",
+    "dontHaveAccount": "Chưa có tài khoản?",
+    "signUpNow": "Đăng ký ngay",
+    "loginNow": "Đăng nhập",
+    "agreeToTerms": "Tôi đồng ý với Điều khoản dịch vụ và Chính sách bảo mật"
+  },
+  "hero": {
+    "badge": "Nền tảng phân tích hàng đầu",
+    "title": "Phân tích thị trường Crypto thông minh",
+    "subtitle": "Tổng hợp tin tức, phân tích xu hướng và dự báo giá từ các nguồn uy tín. Đưa ra quyết định đầu tư thông minh với CryptoInsight.",
+    "getStarted": "Bắt đầu ngay",
+    "learnMore": "Tìm hiểu thêm",
+    "usersCount": "nhà đầu tư đang sử dụng"
+  },
+  "features": {
+    "badge": "Tính năng nổi bật",
+    "title": "Công cụ đầu tư thông minh",
+    "subtitle": "CryptoInsight cung cấp các công cụ mạnh mẽ để theo dõi và phân tích thị trường cryptocurrency một cách chuyên nghiệp",
+    "trendAnalysis": {
+      "title": "Phân tích xu hướng",
+      "description": "Phân tích chuyên sâu về xu hướng thị trường crypto dựa trên dữ liệu lịch sử và các mô hình dự báo. Theo dõi các xu hướng thị trường mới nhất."
+    },
+    "latestNews": {
+      "title": "Tin tức mới nhất",
+      "description": "Cập nhật tin tức mới nhất từ các nguồn uy tín trong thế giới cryptocurrency, được tổng hợp tự động và phân loại theo mức độ ảnh hưởng."
+    },
+    "volatilityAlerts": {
+      "title": "Cảnh báo biến động",
+      "description": "Nhận thông báo kịp thời về các biến động giá lớn để có thể đưa ra quyết định nhanh chóng. Tùy chỉnh mức cảnh báo theo nhu cầu cá nhân."
+    },
+    "technicalAnalysis": {
+      "title": "Phân tích kỹ thuật",
+      "description": "Các công cụ phân tích kỹ thuật tiên tiến giúp bạn hiểu rõ hơn về diễn biến giá và khối lượng giao dịch với các chỉ báo kỹ thuật hàng đầu."
+    },
+    "fastTrading": {
+      "title": "Giao dịch nhanh chóng",
+      "description": "Thực hiện giao dịch chỉ trong vài giây với giao diện đơn giản, trực quan. Theo dõi trạng thái giao dịch và nhận thông báo khi hoàn thành."
+    },
+    "maximumSecurity": {
+      "title": "Bảo mật tối đa",
+      "description": "Hệ thống bảo mật đa lớp với xác thực hai yếu tố, mã hóa đầu cuối và giám sát liên tục để bảo vệ tài sản của bạn một cách tuyệt đối."
+    },
+    "continuousUpdates": {
+      "title": "Cập nhật liên tục",
+      "description": "Dữ liệu được cập nhật theo thời gian thực, giúp bạn không bỏ lỡ bất kỳ cơ hội giao dịch nào với thông tin chính xác và kịp thời nhất."
+    },
+    "crossPlatform": {
+      "title": "Trải nghiệm đa nền tảng",
+      "description": "Truy cập dịch vụ từ mọi thiết bị với trải nghiệm đồng nhất. Ứng dụng di động tối ưu cho cả iOS và Android với đầy đủ tính năng."
+    },
+    "readyToExperience": "Sẵn sàng trải nghiệm?",
+    "startFreeTrial": "Bắt đầu dùng thử miễn phí"
+  },
+  "news": {
+    "badge": "Cập nhật thị trường",
+    "title": "Tin tức mới nhất về",
+    "subtitle": "Tổng hợp các tin tức và phân tích mới nhất từ các nguồn uy tín, được cập nhật liên tục 24/7",
+    "loading": "Đang tải tin tức...",
+    "error": "Không thể tải tin tức",
+    "sentiment": {
+      "positive": "Tích cực",
+      "negative": "Tiêu cực",
+      "neutral": "Trung lập"
+    }
+  },
+  "analysis": {
+    "badge": "Phân tích chuyên sâu",
+    "title": "Phân tích thị trường crypto",
+    "subtitle": "Theo dõi biến động giá, khối lượng giao dịch và các chỉ số quan trọng để đưa ra quyết định đầu tư sáng suốt",
+    "marketOverview": "Tổng quan thị trường",
+    "price": "Giá",
+    "change": "Thay đổi",
+    "volume": "Khối lượng",
+    "marketCap": "Vốn hóa",
+    "analysisTool": {
+      "title": "Công cụ phân tích",
+      "technicalCharts": {
+        "title": "Biểu đồ kỹ thuật",
+        "description": "Phân tích giá theo thời gian thực với các chỉ báo kỹ thuật như MACD, RSI, và Bollinger Bands."
+      },
+      "volumeAnalysis": {
+        "title": "Phân tích khối lượng",
+        "description": "Theo dõi khối lượng giao dịch và phát hiện các mô hình tích lũy hoặc phân phối."
+      },
+      "portfolio": {
+        "title": "Danh mục đầu tư",
+        "description": "Quản lý và phân tích danh mục đầu tư của bạn với các công cụ theo dõi hiệu suất."
+      }
+    },
+    "weeklyReport": {
+      "title": "Nhận báo cáo phân tích hàng tuần",
+      "subtitle": "Đăng ký để nhận báo cáo phân tích chuyên sâu về thị trường crypto mỗi tuần.",
+      "placeholder": "Email của bạn",
+      "button": "Đăng ký"
+    }
+  },
+  "contact": {
+    "badge": "Hỗ trợ 24/7",
+    "title": "Liên hệ với chúng tôi",
+    "subtitle": "Bạn có câu hỏi hoặc cần hỗ trợ? Đội ngũ chuyên gia của chúng tôi luôn sẵn sàng giúp đỡ bạn 24/7",
+    "info": {
+      "title": "Thông tin liên hệ",
+      "email": "Email",
+      "phone": "Điện thoại",
+      "address": "Địa chỉ"
+    },
+    "form": {
+      "title": "Gửi tin nhắn cho chúng tôi",
+      "name": "Họ tên",
+      "email": "Email",
+      "subject": "Chủ đề",
+      "message": "Nội dung",
+      "selectSubject": "Chọn chủ đề",
+      "subjects": {
+        "general": "Thông tin chung",
+        "support": "Hỗ trợ kỹ thuật",
+        "billing": "Vấn đề thanh toán",
+        "partnership": "Hợp tác kinh doanh",
+        "other": "Khác"
+      },
+      "enterMessage": "Nhập nội dung tin nhắn của bạn",
+      "sending": "Đang gửi...",
+      "send": "Gửi tin nhắn",
+      "success": {
+        "title": "Tin nhắn đã được gửi!",
+        "text": "Cảm ơn bạn đã liên hệ với chúng tôi. Chúng tôi sẽ phản hồi trong thời gian sớm nhất.",
+        "button": "Gửi tin nhắn khác"
+      }
+    },
+    "connectWithUs": "Kết nối với chúng tôi"
+  },
+  "dashboard": {
+    "overview": "Tổng quan",
+    "portfolio": {
+      "title": "Danh mục đầu tư",
+      "totalValue": "Tổng giá trị",
+      "buy": "Mua",
+      "sell": "Bán",
+      "distribution": "Phân bổ tài sản",
+      "recentTransactions": "Giao dịch gần đây",
+      "viewAllTransactions": "Xem tất cả giao dịch",
+      "purchased": "Đã mua",
+      "sold": "Đã bán"
+    },
+    "priceChart": {
+      "title": "Biểu đồ giá",
+      "currentPrice": "Giá hiện tại",
+      "change": "Thay đổi",
+      "volume": "Khối lượng",
+      "timeframes": {
+        "24h": "24 giờ",
+        "7d": "7 ngày",
+        "30d": "30 ngày",
+        "1y": "1 năm"
+      }
+    },
+    "quickActions": {
+      "title": "Thao tác nhanh",
+      "trade": {
+        "title": "Mua/Bán",
+        "description": "Giao dịch tiền điện tử"
+      },
+      "analysis": {
+        "title": "Phân tích",
+        "description": "Xem biểu đồ chi tiết"
+      },
+      "alerts": {
+        "title": "Cảnh báo",
+        "description": "Tạo cảnh báo giá mới"
+      },
+      "wallet": {
+        "title": "Ví",
+        "description": "Quản lý tài sản"
+      }
+    },
+    "marketOverview": {
+      "title": "Tổng quan thị trường",
+      "all": "Tất cả",
+      "gainers": "Tăng",
+      "losers": "Giảm",
+      "viewAllCrypto": "Xem tất cả tiền điện tử"
+    },
+    "trendingCoins": {
+      "title": "Tiền điện tử xu hướng",
+      "viewDetails": "Xem chi tiết"
+    },
+    "recentNews": {
+      "title": "Tin tức mới nhất",
+      "viewAll": "Xem tất cả"
+    },
+    "alerts": {
+      "title": "Cảnh báo giá",
+      "createAlert": "Tạo cảnh báo",
+      "noAlerts": "Không có cảnh báo nào đang hoạt động",
+      "alertWhen": "Cảnh báo khi",
+      "above": "trên",
+      "below": "dưới",
+      "deleteAlert": "Xóa cảnh báo",
+      "editAlert": "Chỉnh sửa cảnh báo"
+    },
+    "notifications": {
+      "title": "Thông báo",
+      "markAllRead": "Đánh dấu tất cả đã đọc",
+      "noNotifications": "Không có thông báo",
+      "viewAll": "Xem tất cả thông báo"
+    }
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "appearance": {
+      "title": "Giao diện",
+      "theme": "Chủ đề",
+      "light": "Sáng",
+      "dark": "Tối",
+      "system": "Hệ thống"
+    },
+    "language": {
+      "title": "Ngôn ngữ",
+      "select": "Chọn ngôn ngữ"
+    },
+    "notifications": {
+      "title": "Thông báo",
+      "priceAlerts": "Cảnh báo giá",
+      "newsUpdates": "Cập nhật tin tức",
+      "securityAlerts": "Cảnh báo bảo mật",
+      "marketSummary": "Tổng hợp thị trường hàng ngày",
+      "emailNotifications": "Thông báo qua email",
+      "pushNotifications": "Thông báo đẩy"
+    },
+    "account": {
+      "title": "Tài khoản",
+      "profile": "Hồ sơ",
+      "security": "Bảo mật",
+      "preferences": "Tùy chọn",
+      "subscription": "Gói dịch vụ",
+      "billing": "Thanh toán",
+      "apiAccess": "Truy cập API"
+    },
+    "security": {
+      "title": "Bảo mật",
+      "changePassword": "Đổi mật khẩu",
+      "twoFactor": "Xác thực hai yếu tố",
+      "sessionManagement": "Quản lý phiên",
+      "loginHistory": "Lịch sử đăng nhập"
+    },
+    "about": {
+      "title": "Giới thiệu",
+      "version": "Phiên bản",
+      "termsOfService": "Điều khoản dịch vụ",
+      "privacyPolicy": "Chính sách bảo mật",
+      "contactSupport": "Liên hệ hỗ trợ"
+    },
+    "save": "Lưu thay đổi",
+    "cancel": "Hủy",
+    "saved": "Cài đặt đã được lưu thành công",
+    "resetToDefault": "Đặt lại mặc định"
+  }
+}

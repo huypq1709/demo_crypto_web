@@ -1,0 +1,310 @@
+{
+  "app": {
+    "name": "CryptoInsight"
+  },
+  "common": {
+    "loading": "Loading...",
+    "viewAll": "View All",
+    "search": "Search",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "apply": "Apply",
+    "reset": "Reset",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "name": "Name"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "news": "News",
+    "analysis": "Analysis",
+    "contact": "Contact",
+    "dashboard": "Dashboard",
+    "market": "Market Analysis",
+    "alerts": "Alerts",
+    "portfolio": "Portfolio",
+    "settings": "Settings",
+    "quickLinks": "Quick Links",
+    "resources": "Resources",
+    "guides": "Guides",
+    "blog": "Blog",
+    "documentation": "Documentation"
+  },
+  "footer": {
+    "allRightsReserved": "All rights reserved.",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "auth": {
+    "login": "Log In",
+    "register": "Sign Up",
+    "logout": "Log Out",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "fullName": "Full Name",
+    "orLoginWith": "Or login with",
+    "orSignUpWith": "Or sign up with",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "signUpNow": "Sign up now",
+    "loginNow": "Log in now",
+    "agreeToTerms": "I agree to the Terms of Service and Privacy Policy"
+  },
+  "hero": {
+    "badge": "Leading Analysis Platform",
+    "title": "Smart Crypto Market Analysis",
+    "subtitle": "Aggregate news, trend analysis, and price forecasts from trusted sources. Make smart investment decisions with CryptoInsight.",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "usersCount": "investors using"
+  },
+  "features": {
+    "badge": "Key Features",
+    "title": "Smart Investment Tools",
+    "subtitle": "CryptoInsight provides powerful tools to track and analyze the cryptocurrency market professionally",
+    "trendAnalysis": {
+      "title": "Trend Analysis",
+      "description": "In-depth analysis of cryptocurrency market trends based on historical data and predictive models. Track the latest market trends."
+    },
+    "latestNews": {
+      "title": "Latest News",
+      "description": "Latest news updates from trusted sources in the cryptocurrency world, automatically aggregated and categorized by impact level."
+    },
+    "volatilityAlerts": {
+      "title": "Volatility Alerts",
+      "description": "Receive timely notifications about major price fluctuations to make quick decisions. Customize alert levels according to personal needs."
+    },
+    "technicalAnalysis": {
+      "title": "Technical Analysis",
+      "description": "Advanced technical analysis tools help you better understand price movements and trading volumes with leading technical indicators."
+    },
+    "fastTrading": {
+      "title": "Fast Trading",
+      "description": "Execute trades in seconds with a simple, intuitive interface. Track transaction status and receive notifications when completed."
+    },
+    "maximumSecurity": {
+      "title": "Maximum Security",
+      "description": "Multi-layered security system with two-factor authentication, end-to-end encryption, and continuous monitoring to absolutely protect your assets."
+    },
+    "continuousUpdates": {
+      "title": "Continuous Updates",
+      "description": "Data is updated in real-time, helping you not miss any trading opportunities with the most accurate and timely information."
+    },
+    "crossPlatform": {
+      "title": "Cross-Platform Experience",
+      "description": "Access services from any device with a consistent experience. Mobile apps optimized for both iOS and Android with full features."
+    },
+    "readyToExperience": "Ready to experience?",
+    "startFreeTrial": "Start free trial"
+  },
+  "news": {
+    "badge": "Market Updates",
+    "title": "Latest news about",
+    "subtitle": "Compilation of the latest news and analysis from trusted sources, updated continuously 24/7",
+    "loading": "Loading news...",
+    "error": "Could not load news",
+    "sentiment": {
+      "positive": "Positive",
+      "negative": "Negative",
+      "neutral": "Neutral"
+    }
+  },
+  "analysis": {
+    "badge": "In-depth Analysis",
+    "title": "Crypto market analysis",
+    "subtitle": "Track price movements, trading volumes, and key indicators to make informed investment decisions",
+    "marketOverview": "Market Overview",
+    "price": "Price",
+    "change": "Change",
+    "volume": "Volume",
+    "marketCap": "Market Cap",
+    "analysisTool": {
+      "title": "Analysis Tools",
+      "technicalCharts": {
+        "title": "Technical Charts",
+        "description": "Analyze prices in real-time with technical indicators such as MACD, RSI, and Bollinger Bands."
+      },
+      "volumeAnalysis": {
+        "title": "Volume Analysis",
+        "description": "Track trading volumes and detect accumulation or distribution patterns."
+      },
+      "portfolio": {
+        "title": "Investment Portfolio",
+        "description": "Manage and analyze your investment portfolio with performance tracking tools."
+      }
+    },
+    "weeklyReport": {
+      "title": "Get weekly analysis reports",
+      "subtitle": "Subscribe to receive in-depth analysis reports about the crypto market every week.",
+      "placeholder": "Your email",
+      "button": "Subscribe"
+    }
+  },
+  "contact": {
+    "badge": "24/7 Support",
+    "title": "Contact us",
+    "subtitle": "Do you have questions or need support? Our team of experts is always ready to help you 24/7",
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address"
+    },
+    "form": {
+      "title": "Send us a message",
+      "name": "Full Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "selectSubject": "Select subject",
+      "subjects": {
+        "general": "General Information",
+        "support": "Technical Support",
+        "billing": "Billing Issues",
+        "partnership": "Business Partnership",
+        "other": "Other"
+      },
+      "enterMessage": "Enter your message",
+      "sending": "Sending...",
+      "send": "Send message",
+      "success": {
+        "title": "Message sent!",
+        "text": "Thank you for contacting us. We will respond as soon as possible.",
+        "button": "Send another message"
+      }
+    },
+    "connectWithUs": "Connect with us"
+  },
+  "dashboard": {
+    "overview": "Overview",
+    "portfolio": {
+      "title": "Portfolio",
+      "totalValue": "Total Value",
+      "buy": "Buy",
+      "sell": "Sell",
+      "distribution": "Asset Distribution",
+      "recentTransactions": "Recent Transactions",
+      "viewAllTransactions": "View all transactions",
+      "purchased": "Purchased",
+      "sold": "Sold"
+    },
+    "priceChart": {
+      "title": "Price Chart",
+      "currentPrice": "Current Price",
+      "change": "Change",
+      "volume": "Volume",
+      "timeframes": {
+        "24h": "24 hours",
+        "7d": "7 days",
+        "30d": "30 days",
+        "1y": "1 year"
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "trade": {
+        "title": "Buy/Sell",
+        "description": "Trade cryptocurrency"
+      },
+      "analysis": {
+        "title": "Analysis",
+        "description": "View detailed charts"
+      },
+      "alerts": {
+        "title": "Alerts",
+        "description": "Create new price alerts"
+      },
+      "wallet": {
+        "title": "Wallet",
+        "description": "Manage assets"
+      }
+    },
+    "marketOverview": {
+      "title": "Market Overview",
+      "all": "All",
+      "gainers": "Gainers",
+      "losers": "Losers",
+      "viewAllCrypto": "View all cryptocurrencies"
+    },
+    "trendingCoins": {
+      "title": "Trending Coins",
+      "viewDetails": "View details"
+    },
+    "recentNews": {
+      "title": "Latest News",
+      "viewAll": "View all"
+    },
+    "alerts": {
+      "title": "Price Alerts",
+      "createAlert": "Create Alert",
+      "noAlerts": "No active alerts",
+      "alertWhen": "Alert when",
+      "above": "above",
+      "below": "below",
+      "deleteAlert": "Delete alert",
+      "editAlert": "Edit alert"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "markAllRead": "Mark all as read",
+      "noNotifications": "No notifications",
+      "viewAll": "View all notifications"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": {
+      "title": "Appearance",
+      "theme": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "language": {
+      "title": "Language",
+      "select": "Select language"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "priceAlerts": "Price alerts",
+      "newsUpdates": "News updates",
+      "securityAlerts": "Security alerts",
+      "marketSummary": "Daily market summary",
+      "emailNotifications": "Email notifications",
+      "pushNotifications": "Push notifications"
+    },
+    "account": {
+      "title": "Account",
+      "profile": "Profile",
+      "security": "Security",
+      "preferences": "Preferences",
+      "subscription": "Subscription",
+      "billing": "Billing",
+      "apiAccess": "API Access"
+    },
+    "security": {
+      "title": "Security",
+      "changePassword": "Change password",
+      "twoFactor": "Two-factor authentication",
+      "sessionManagement": "Session management",
+      "loginHistory": "Login history"
+    },
+    "about": {
+      "title": "About",
+      "version": "Version",
+      "termsOfService": "Terms of Service",
+      "privacyPolicy": "Privacy Policy",
+      "contactSupport": "Contact Support"
+    },
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "saved": "Settings saved successfully",
+    "resetToDefault": "Reset to default"
+  }
+}

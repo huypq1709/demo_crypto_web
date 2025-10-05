@@ -1,0 +1,175 @@
+/* News Cards Optimization - Professional Design */
+.news-card {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 320px !important; /* Reduced height for title-only layout */
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%) !important;
+  border: 1px solid #374151 !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+
+.news-card:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+  border-color: #3b82f6 !important;
+}
+
+.news-card .card-content {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+  padding: 1.5rem !important;
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%) !important;
+  justify-content: space-between !important;
+}
+
+.news-card .card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #f9fafb;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+  margin-bottom: 1rem;
+}
+
+/* Description styles removed - title-only layout */
+
+.news-card .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  padding-top: 1rem;
+  border-top: 1px solid #374151;
+  margin-top: auto;
+}
+
+/* Read more button styles removed - title-only layout */
+
+.news-card .card-image {
+  height: 12rem;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  filter: brightness(0.9) contrast(1.1);
+}
+
+.news-card:hover .card-image {
+  transform: scale(1.05);
+  filter: brightness(1) contrast(1.2);
+}
+
+.news-card .sentiment-badge {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.news-card .source-tag {
+  background: linear-gradient(135deg, #374151 0%, #1f2937 100%);
+  color: #e5e7eb;
+  padding: 0.375rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border: 1px solid #4b5563;
+  transition: all 0.2s ease;
+}
+
+.news-card .source-tag:hover {
+  background: linear-gradient(135deg, #4b5563 0%, #374151 100%);
+  transform: scale(1.05);
+}
+
+.news-card .date-text {
+  color: #9ca3af;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Grid optimization with equal heights */
+.news-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
+  gap: 1.5rem !important;
+  align-items: stretch !important; /* Ensure all cards have same height */
+}
+
+@media (min-width: 768px) {
+  .news-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .news-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Card container for consistent sizing */
+.news-card-container {
+  height: 320px !important; /* Match card height for title-only layout */
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.news-card-container .motion-div {
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Ensure proper spacing and prevent overlapping */
+.news-card-container {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+.news-card {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+/* Fix any potential overlapping issues */
+.news-grid > * {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+/* Professional color scheme */
+.news-card.positive-sentiment .sentiment-badge {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(16, 185, 129, 0.3);
+}
+
+.news-card.negative-sentiment .sentiment-badge {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(239, 68, 68, 0.3);
+}
+
+.news-card.neutral-sentiment .sentiment-badge {
+  background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%);
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(107, 114, 128, 0.3);
+}
